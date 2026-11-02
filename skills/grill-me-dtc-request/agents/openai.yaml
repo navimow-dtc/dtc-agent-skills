@@ -1,0 +1,5 @@
+interface:
+  display_name: "Grill Me DTC Request"
+  short_description: "Evaluate and break down a DTC requirement"
+policy:
+  allow_implicit_invocation: false

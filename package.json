@@ -1,0 +1,22 @@
+{
+  "name": "@navimow-dtc/agent-skills",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Install Navimow DTC Agent Skills across supported AI agents.",
+  "license": "UNLICENSED",
+  "type": "module",
+  "bin": {
+    "dtc-skills": "./bin/install.js"
+  },
+  "files": ["bin", "skills"],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/navimow-dtc/dtc-agent-skills.git"
+  }
+}
