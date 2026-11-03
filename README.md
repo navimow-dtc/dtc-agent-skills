@@ -17,34 +17,34 @@ npx github:navimow-dtc/dtc-agent-skills
 指定 Agent：
 
 ```bash
-npx github:navimow-dtc/dtc-agent-skills -- --agent trae
-npx github:navimow-dtc/dtc-agent-skills -- --agent trae-cn
-npx github:navimow-dtc/dtc-agent-skills -- --agent claude
-npx github:navimow-dtc/dtc-agent-skills -- --agent codex
+npx github:navimow-dtc/dtc-agent-skills --agent trae
+npx github:navimow-dtc/dtc-agent-skills --agent trae-cn
+npx github:navimow-dtc/dtc-agent-skills --agent claude
+npx github:navimow-dtc/dtc-agent-skills --agent codex
 ```
 
 安装到所有支持的 Agent：
 
 ```bash
-npx github:navimow-dtc/dtc-agent-skills -- --all
+npx github:navimow-dtc/dtc-agent-skills --all
 ```
 
 ## 更新
 
 ```bash
-npx github:navimow-dtc/dtc-agent-skills -- --update --all
+npx github:navimow-dtc/dtc-agent-skills --update --all
 ```
 
 ## 卸载
 
 ```bash
-npx github:navimow-dtc/dtc-agent-skills -- --uninstall --all
+npx github:navimow-dtc/dtc-agent-skills --uninstall --all
 ```
 
 自动确认卸载：
 
 ```bash
-npx github:navimow-dtc/dtc-agent-skills -- --uninstall --all --yes
+npx github:navimow-dtc/dtc-agent-skills --uninstall --all --yes
 ```
 
 卸载不会删除已经生成的 `DTC-Requirements` 交付物。
